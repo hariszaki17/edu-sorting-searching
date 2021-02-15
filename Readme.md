@@ -139,3 +139,6 @@ console.log(`ini c: ${c} dan ini d ${d} temp setelah swap`);
 5. ***Think twice code once*** => Meski tidak serta merta ketika kita berfikir 2 kali lalu langsung bisa, tapi konsep ini mengajarkan agar kita memahami betul apa yang mau kita tulis. Programmer yang baik adalah programmer yang tau output dari apa yang ditulisnya. Juga dengan konsep ini kita dapat menghindari tangled code karena terlalu banyak mencoba tanpa berfikir dahulu.
 
 ## The Big O notation at glance
+Kalian mungkin penasaran kenapa banyak sekali jenis dari sorting dan searching algorithm, ada yang mudah untuk diimplementasikan ada yang sulit. Jenis-jenis algoritma ini sebenarnya punya kelemahan, kelebihan serta karakteristik masing-masing, tapi tujuan utamanya adalah untuk menyelesaikan masalah secara optimal dan efisien.
+
+Dalam pemrogramman juga terdapat efisiensi dan optimasi algoritma khususnya pada searching dan sorting. Dari mana kita bisa mengukur tingkat efisiensi atau optimal sebuah algoritma? jawabannya adalah big o notation
