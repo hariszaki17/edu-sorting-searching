@@ -1,8 +1,8 @@
 ## Table of Content
 1. [Sorting and searching are part of our life](#Sorting-and-searching-are-part-of-our-life)
 1. [Sorting and Searching algorithm](#Sorting-and-Searching-algorithm)
-1. [Sorting algorithm: Insertion and selection sort](#Sorting-algorithm:-Insertion-and-selection-sort)
-1. [Searching algorithm: Liniear and binary search](#Searching-algorithm:-Liniear-and-binary-search)
+1. [Sorting algorithm: Insertion and selection sort](#Sorting-algorithm-Insertion-and-selection-sort)
+1. [Searching algorithm: Liniear and binary search](#Searching-algorithm-Liniear-and-binary-search)
 1. [The tips and tricks](#The-tips-and-tricks)
 1. [The Big O notation at glance](#The-Big-O-notation-at-glance)
 1. [References](#references)
