@@ -139,6 +139,28 @@ console.log(`ini c: ${c} dan ini d ${d} temp setelah swap`);
 5. ***Think twice code once*** => Meski tidak serta merta ketika kita berfikir 2 kali lalu langsung bisa, tapi konsep ini mengajarkan agar kita memahami betul apa yang mau kita tulis. Programmer yang baik adalah programmer yang tau output dari apa yang ditulisnya. Juga dengan konsep ini kita dapat menghindari tangled code karena terlalu banyak mencoba tanpa berfikir dahulu.
 
 ## The Big O notation at glance
-Kalian mungkin penasaran kenapa banyak sekali jenis dari sorting dan searching algorithm, ada yang mudah untuk diimplementasikan ada yang sulit. Jenis-jenis algoritma ini sebenarnya punya kelemahan, kelebihan serta karakteristik masing-masing, tapi tujuan utamanya adalah untuk menyelesaikan masalah secara optimal dan efisien.
+Big O notation singkatnya adalah metode untuk menggambarkan tingkat kecepatan sebuah algoritma jika dioperasikan pada data. Tiap algoritma memiliki sifat dan cara kerjanya masing-masing karenanya hal tersebut juga dapat memengaruhi kecepatan untuk menyelesaikan masalah. Pengukuran kecepatan ditinjau dari seberapa banyak operasi yang dilakukan untuk dapat menyelesaikan masalah sebagai contoh binary search dan liniear search memiliki cara kerja yang sangat berbeda. Kita dapat melihat perbandingan kedua algoritma tersebut seperti di bawah ini.
 
-Dalam pemrogramman juga terdapat efisiensi dan optimasi algoritma khususnya pada searching dan sorting. Dari mana kita bisa mengukur tingkat efisiensi atau optimal sebuah algoritma? jawabannya adalah big o notation
+<img src="https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif" />
+
+Pada visualiasi di atas dibandingkan cara kerja dan jumlah langkah yang ditempuh untuk menemukan sebuah nilai pada array yang diberikan. Sangat jelas terlihat dengan menggunakan binary search ini kita dapat menghemat banyak waktu untuk menyelesaikan masalah. Mungkin kita lihat perbandigan jumlah langkah pada kedua algoritma di atas hanya sedikit dan tidak berpengaruh secara signifikan. Akan tetapi jika kita komparasikan kedua algoritma tersebut dengan data yang lebih banyak jumlahnya maka akan terlihat jelas perbedaan keduannya. Untuk lebih jelasnya kita dapat melihat tabel perbandingan binary search dan liniear search di bawah ini.
+
+<img src="https://www.freecodecamp.org/news/content/images/2020/03/31781165-723a053c-b500-11e7-937c-7b33db281efe.png" />
+
+Pada baris kedua terdapat runtime jika dinotasikan oleh big O notation. Sebenarnya notasinya ini memiliki banyak jenis tidak hanya liniear dan logaritmik saja. Kita bisa melihat bagaimana big o notation dinotasikan berdasarkan faktor pengaruh jumlah element dan jumlah operasinya.
+
+<img src="https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg" />
+
+Akan tetapi kita tidak bisa hanya mengukur bagus atau buruknya algoritma hanya dari tingkat kecepatannya saja, karena tiap algoritma memiliki kompleksitas dan tingkat kesulitannya masing-masing. Terlebih ada beberapa algoritma yang memiliki persyaratan khusus seperti binary search hanya bisa diimplementasikan jika data terurut, ini menjadi masalah baru karena jika data sangat acak kita butuh algortima sorting sebagai tambahan operasi lalu mengimplementasikan binary search itulah mengapa kita tidak bisa serta merta mengacu hanya dari tingkat kecepatannya saja untuk menilai baik atau buruk sebuah algoritma.
+
+## References
+
+https://www.bigocheatsheet.com/
+
+https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/
+
+https://www.freecodecamp.org/news/big-o-notation-explained-with-examples/
+
+https://dmitripavlutin.com/swap-variables-javascript/
+
+https://visualgo.net/
